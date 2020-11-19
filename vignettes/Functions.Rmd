@@ -1,0 +1,33 @@
+---
+title: "Functions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753fran0107)
+```
+
+This package includes 4 functions.
+
+## 1: mybin()
+This function conducts binomial trials and returns a bar plot showing the results. It can also be made to return a table.
+
+## 2: myncurve()
+This function makes a normal curve and shades it to a point specified in the function. The function also finds that area of the shaded portion and returns that in the command line.
+
+## 3: myboot2()
+A bootstrap function that returns a histogram of a statistic specified in the funciton.
+
+## 4: myci()
+This function finds a 95% confidence interval for the population mean when given a sample.
